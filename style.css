@@ -1,9 +1,9 @@
-html { background-color: rgb(44, 29, 58); color: white; font-family: "Arial"; }
+html { background-color: rgb(44, 29, 58); color: white; font-family: "arial"; }
 nav { font-size: 13pt; letter-spacing: 9px; margin-left: 40px; margin-top: 50px; }
 a { text-decoration: none; color: white; }
 a:visited { color: white; }
-#left { font-size: 80pt; float: left; color:rgb(98, 58, 105); font-weight: bolder; 
-  margin-top: 130px; margin-left: 50px;}
+#left { font-size: 100pt; float: left; color:rgb(98, 58, 105); font-weight: bolder; 
+  margin-top: 130px; margin-left: 70px;}
 #right { float: right; }
 #boxA { transition: transform .2s; background-color: rgb(255, 179, 192); width: 250px; 
   height: 200px; display: block; margin-top: 80px; margin-right: 142px; font-size: 80px; }
@@ -11,8 +11,8 @@ a:visited { color: white; }
   height: 200px; display: block; margin-top: 40px; font-size: 40px; margin-bottom: 30px; }
 #boxA:hover { transform: scale(1.2); box-shadow: 6px 6px 8px rgb(8, 2, 10); }
 #boxB:hover { transform: scale(1.2); box-shadow: 6px 6px 8px rgb(8, 2, 10); }
-#boxA h3 { position: absolute; margin-top: 119px; margin-left: 10px;}
-#boxB h3 { position: absolute; margin-top: 50px; margin-left: 46px;}
+#boxA h3 { position: absolute; margin-top: 114px; margin-left: 10px;}
+#boxB h3 { position: absolute; margin-top: 50px; margin-left: 25px;}
 .contactBtn {border-color: white; border: 1px solid white; padding: 5px 50px; 
   border-radius: 10px; position:absolute;
   left:50%;
@@ -40,7 +40,7 @@ a:visited { color: white; }
   position:absolute;
   left:50%;
   top:30%;
-  margin-left: 140px;
+  margin-left: 262px;
   margin-top:-60px; 
 }
 
