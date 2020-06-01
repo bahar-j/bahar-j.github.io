@@ -1,8 +1,24 @@
-html { background-color: rgb(44, 29, 58); color: white; font-family: "BebasNeue"; }
+html { background-color: rgb(44, 29, 58); color: white; font-family: 'bebas_neueregular'; }
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-webfont.woff2') format('woff2'),
+         url('bebasneue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'montezregular';
+  src: url('montez-regular-webfont.woff2') format('woff2'),
+       url('montez-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 nav { font-size: 13pt; letter-spacing: 9px; margin-left: 40px; margin-top: 50px; }
 a { text-decoration: none; color: white; }
 a:visited { color: white; }
-#left { font-family: "Montez-Regular"; font-size: 100pt; float: left; color:rgb(98, 58, 105); font-weight: bolder; 
+#left { font-family: 'montezregular'; font-size: 100pt; float: left; color:rgb(98, 58, 105); font-weight: bolder; 
   margin-top: 130px; margin-left: 70px;}
 #right { float: right; }
 #boxA { transition: transform .2s; background-color: rgb(255, 179, 192); width: 250px; 
@@ -11,8 +27,8 @@ a:visited { color: white; }
   height: 200px; display: block; margin-top: 35px; font-size: 40px; margin-bottom: 30px; }
 #boxA:hover { transform: scale(1.2); box-shadow: 6px 6px 8px rgb(8, 2, 10); }
 #boxB:hover { transform: scale(1.2); box-shadow: 6px 6px 8px rgb(8, 2, 10); }
-#boxA h3 { font-family: "Montez-Regular"; position: absolute; margin-top: 90px; margin-left: 10px;}
-#boxB h3 { font-family: "Montez-Regular"; position: absolute; margin-top: 120px; margin-left: 10px;}
+#boxA h3 { font-family: 'montezregular'; position: absolute; margin-top: 90px; margin-left: 10px;}
+#boxB h3 { font-family: 'montezregular'; position: absolute; margin-top: 120px; margin-left: 10px;}
 .contactBtn {border-color: white; border: 1px solid white; padding: 5px 50px; 
   border-radius: 10px; position:absolute; left:50%; top:50%;
   margin-left:-150px; margin-top:-60px; }
